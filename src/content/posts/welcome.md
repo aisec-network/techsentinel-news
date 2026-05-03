@@ -4,6 +4,8 @@ description: "Tech Sentinel covers cybersecurity news with an engineer's filter.
 pubDate: 2026-05-02
 tags: ["meta"]
 category: "site"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/welcome.png
+heroAlt: "What this site is for"
 ---
 
 Tech Sentinel exists for one reason: there is too much cybersecurity news, and too little of it is useful to people who actually do the work.

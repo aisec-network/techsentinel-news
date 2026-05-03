@@ -16,6 +16,8 @@ sources:
     url: "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/"
 schema:
   type: "NewsArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/how-ai-assistants-are-moving-the-security-goalposts.png
+heroAlt: "AI Assistants Are Rewriting the Threat Model, Not Just the Workflow"
 ---
 
 The rapid spread of agentic AI assistants inside developer and IT environments is forcing security teams to rethink long-settled assumptions about insider risk, code provenance, and what counts as "running with the user's permission," according to a wave of recent incident reporting and vendor disclosures.
