@@ -61,3 +61,11 @@ The thread on Reddit put it plainly: the operating model assumes infinite human 
 - **[AI Vulnerability Research Is Collapsing the Patch Window](https://www.penligent.ai/hackinglabs/ai-vulnerability-research-is-collapsing-the-patch-window/)** — Penligent analysis drawing on Unit 42, Anthropic, and Google Project Zero findings on AI-accelerated exploitation timelines.
 
 - **[NIST CVE Prioritization as AI Speeds Up Vulnerability Discovery](https://www.penligent.ai/hackinglabs/nist-cve-prioritization-as-ai-speeds-up-vulnerability-discovery/)** — Documents CVE submission growth (263% from 2020–2025), NIST enrichment backlog data, and Q1 2026 submission pace.
+
+## Related across the network
+
+- [CVE-2026-7669: Deserialization flaw in SGLang's HuggingFace tokenizer loader](https://ai-alert.org/posts/cve-2026-7669-a-vulnerability-was-detected-in-sgl-project-sg/) — *ai-alert.org*
+- [The Authority Gap Is an Observability Problem: What MLOps Teams Should Actually Instrument](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability-2/) — *sentryml.com*
+- [FTC logs $2.1B in social media scam losses as TAKE IT DOWN deadline lands](https://neuralwatch.org/posts/threatsday-bulletin-sms-blaster-busts-openemr-flaws-600k-rob/) — *neuralwatch.org*
+- [AI Content Moderation: How LLM Filters Work and Where They Break](https://guardml.io/posts/ai-content-moderation/) — *guardml.io*
+- [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
