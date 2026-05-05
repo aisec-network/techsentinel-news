@@ -34,7 +34,7 @@ Security researcher Adnan Khan disclosed the underlying flaw on February 9, 2026
 
 Eight days later, on February 17, an unauthorized party used the stolen npm token to push `cline@2.3.0` at 3:26 AM PT. The package contained a `postinstall` script that ran `npm install -g openclaw@latest`, silently installing an autonomous AI agent on every machine that updated during the roughly eight-hour window before the publish was caught and reversed. [The Hacker News reported](https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html) that StepSecurity counted around 4,000 affected installs.
 
-Read carefully, none of the individual primitives in this attack are novel. Prompt injection in untrusted text has been documented for two years. GitHub Actions cache poisoning was a known class of vulnerability before the AI era. Postinstall hooks are the oldest npm threat model in the book. What is new is the chaining: an attacker no longer needs a foothold inside a CI pipeline to corrupt it. Filing a public issue is enough, because there is now an LLM with shell privileges sitting between the issue tracker and the build runner, willing to interpret an issue title as an instruction.
+Read carefully, none of the individual primitives in this attack are novel. [Prompt injection](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) in untrusted text has been documented for two years. GitHub Actions cache poisoning was a known class of vulnerability before the AI era. Postinstall hooks are the oldest npm threat model in the book. What is new is the chaining: an attacker no longer needs a foothold inside a CI pipeline to corrupt it. Filing a public issue is enough, because there is now an LLM with shell privileges sitting between the issue tracker and the build runner, willing to interpret an issue title as an instruction.
 
 ## The FortiGate campaign: AI as a force multiplier for unsophisticated actors
 
@@ -98,3 +98,11 @@ The first wave of agent incidents has been mostly about embarrassment and inconv
 - [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) — Simon Willison's framing of the architectural problem; cited by most subsequent agentic-AI threat-modeling work.
 - [OpenClaw security risks: What security teams need to know about agentic AI](https://blog.barracuda.com/2026/04/09/openclaw-security-risks-agentic-ai) — Barracuda's nine-point control checklist and a summary of the ClawJacked exposure pattern.
 - [Cline CLI 2.3.0 Supply Chain Attack Installed OpenClaw on Developer Systems](https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html) — The Hacker News reporting on the eight-hour npm publish window and approximate install count.
+
+## Related across the network
+
+- [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+- [The Authority Gap Is an Observability Problem: What MLOps Teams Should Borrow](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+- [FlashRT cuts the GPU bill on long-context prompt injection attacks](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) — *aisec.blog*
+- [AI Content Moderation: How LLM Filters Work and Where They Break](https://guardml.io/posts/ai-content-moderation/) — *guardml.io*
+- [FlashRT: Optimization-Based LLM Red-Teaming Without the 264 GB GPU Bill](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea-2/) — *aisec.blog*
