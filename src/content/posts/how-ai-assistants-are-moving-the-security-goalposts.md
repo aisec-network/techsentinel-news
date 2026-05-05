@@ -45,7 +45,7 @@ For defenders, the unifying lesson across these incidents is that agentic AI fli
 Several practical implications are landing on SOC and AppSec leads now:
 
 - **Agent permissions are the blast radius.** An agent inheriting a developer's GitHub token, AWS keys, and Slack scopes is functionally a privileged service account that takes instructions from anyone who can put text in front of it. Treat its scope like you would a CI/CD runner's, not a chatbot's.
-- **Prompt injection is a supply-chain concern.** The Cline incident shows that any agent that can install or update its own skills, plug-ins, or extensions broadens the trust boundary to every upstream feed it consumes. Skill marketplaces and "agent hubs" need the same provenance controls as package registries.
+- **[Prompt injection](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) is a supply-chain concern.** The Cline incident shows that any agent that can install or update its own skills, plug-ins, or extensions broadens the trust boundary to every upstream feed it consumes. Skill marketplaces and "agent hubs" need the same provenance controls as package registries.
 - **Detection telemetry is mostly missing.** EDR sees the agent process, not the natural-language instructions steering it. Logging the agent's tool-call traces, prompts, and outbound HTTP — and retaining them for IR — is becoming table stakes.
 - **Identity is shifting.** When an agent acts on behalf of a user across systems, attribution and non-repudiation get murky fast. IAM teams need to decide whether agents get their own identities and audit trails or continue impersonating humans.
 - **The economics favor the attacker first.** As the FortiGate campaign demonstrates, AI lowers the skill floor for offense before it meaningfully raises the ceiling for defense. Operators with shallow skills can now execute campaigns that previously required a team.
@@ -60,3 +60,11 @@ The work for defenders is to make that decision visible — and reversible — b
 - [AI-augmented threat actor accesses FortiGate devices at scale](https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/) — Amazon Threat Intelligence's primary disclosure of the 600-device FortiGate campaign and the role of commercial LLMs in the operator's workflow.
 - [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) — Simon Willison's June 2025 framing of the structural risk that combines private data, untrusted content, and external communication in a single agent.
 - [Amazon: AI-assisted hacker breached 600 FortiGate firewalls in 5 weeks](https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/) — BleepingComputer's reporting corroborating the AWS disclosure with additional detail on the targeted ports and credential-based access path.
+
+## Related across the network
+
+- [The Authority Gap Is an Observability Problem: What MLOps Teams Should Actually Instrument](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability-2/) — *sentryml.com*
+- [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+- [The Authority Gap Is an Observability Problem: What MLOps Teams Should Borrow](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+- [Germany names UNKN: what the BKA's REvil and GandCrab dox actually buys](https://ai-alert.org/posts/weekly-germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcra/) — *ai-alert.org*
+- [FlashRT cuts the GPU bill on long-context prompt injection attacks](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) — *aisec.blog*
