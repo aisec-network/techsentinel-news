@@ -1,3 +1,4 @@
+import type { ClusterId } from "./clusters";
 export interface SisterSite {
   domain: string;
   url: string;
@@ -17,6 +18,7 @@ export interface SiteConfig {
   themeColor: string;
   brand: {
     accentHue: number;
+    cluster: ClusterId;
   };
   social: {
     twitter?: string;
@@ -82,7 +84,7 @@ export const siteConfig: SiteConfig = {
   language: "en",
   locale: "en_US",
   themeColor: "#0a0a0a",
-  brand: { accentHue: 12 },
+  brand: { accentHue: 12, cluster: "news" },
   social: { rss: "/rss.xml" },
   email: {
     contact: "hello@techsentinel.news",
