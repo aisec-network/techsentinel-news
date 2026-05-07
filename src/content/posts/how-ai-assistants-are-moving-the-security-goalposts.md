@@ -2,7 +2,7 @@
 title: "AI Assistants Are Rewriting the Threat Model, Not Just the Workflow"
 description: "Autonomous coding agents and AI 'co-workers' are blurring the line between data and code, trusted user and insider threat. A wave of recent incidents shows organizations are not ready for what they have already deployed."
 pubDate: 2026-05-03
-author: "Tech Sentinel Newsroom"
+author: "Theo Voss"
 tags: ["ai-security", "prompt-injection", "agentic-ai", "supply-chain", "threat-intel"]
 category: "threat-intel"
 sources:

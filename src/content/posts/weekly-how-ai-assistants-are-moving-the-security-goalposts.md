@@ -2,7 +2,7 @@
 title: "AI Agents Are Rewriting the Threat Model, and Most Security Teams Aren't Ready"
 description: "Three incidents in three months — Clinejection, the FortiGate campaign, and the OpenClaw exposure wave — show how autonomous AI assistants are collapsing the boundaries security programs were built around."
 pubDate: 2026-05-05
-author: "Tech Sentinel Newsroom"
+author: "Theo Voss"
 tags: ["agentic-ai", "prompt-injection", "supply-chain", "threat-intel", "ai-security", "deep-dive"]
 category: "deep-dive"
 sources:

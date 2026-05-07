@@ -2,7 +2,7 @@
 title: "Cybersecurity Burnout Is a Structural Problem, Not a Personal One"
 description: "A Sophos survey of 5,000 practitioners found 76% experiencing burnout — and it's getting worse. As AI accelerates vulnerability discovery, the operating model that created this problem is about to be stress-tested even harder."
 pubDate: 2026-05-03
-author: "Tech Sentinel Newsroom"
+author: "Theo Voss"
 tags: ["burnout", "cybersecurity-workforce", "patch-management", "vulnerability-management", "ai"]
 category: "industry"
 sources:

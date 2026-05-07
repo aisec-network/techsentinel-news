@@ -1,5 +1,6 @@
 ---
 title: "What this site is for"
+author: "Theo Voss"
 description: "Tech Sentinel covers cybersecurity news with an engineer's filter. Here's what we publish, what we don't, and how to read it."
 pubDate: 2026-05-02
 tags: ["meta"]

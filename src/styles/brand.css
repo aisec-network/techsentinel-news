@@ -1,0 +1,43 @@
+/* Brand override generated from shared/brand-books/techsentinel-news.json
+ * This makes techsentinel-news visually distinct from sister sites in the same cluster.
+ * Loaded after globals.css; overrides cluster defaults with brand-book values.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: 249 250 251;
+  --fg: 30 41 59;
+  --surface: 241 245 249;
+  --muted-fg: 148 163 184;
+
+  --brand-accent-rgb: 71 85 105;
+
+  --font-display: "Libre Baskerville", system-ui, sans-serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+
+  --brand-tone: "sentinel-slate";
+}
+
+body[data-cluster] {
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: var(--font-body);
+}
+
+body[data-cluster] h1, body[data-cluster] h2, body[data-cluster] h3,
+body[data-cluster] .display {
+  font-family: var(--font-display);
+}
+
+/* Override accent ramp midpoint with brand accent */
+body[data-cluster] {
+  --accent-500: var(--brand-accent-rgb);
+  --accent-600: var(--brand-accent-rgb);
+}
+
+/* Surface treatment per tone */
+body[data-cluster] .card,
+body[data-cluster] article {
+  background: rgb(var(--surface));
+}

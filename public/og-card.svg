@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#475569" stop-opacity="0" />
+      <stop offset="1" stop-color="#475569" stop-opacity="0.18" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f9fafb" />
+  <rect x="80" y="540" width="120" height="6" fill="#475569" />
+  
+  <g transform="translate(80, 200)">
+    <text font-family="Libre Baskerville, system-ui, sans-serif" font-size="78" font-weight="700" fill="#1e293b" letter-spacing="-2">
+      Tech Sentinel
+    </text>
+    <text y="120" font-family="Source Sans 3, system-ui, sans-serif" font-size="32" fill="#94a3b8" letter-spacing="0">
+      Standing watch on technology and security.
+    </text>
+    <text y="280" font-family="Source Sans 3, monospace" font-size="22" fill="#475569" letter-spacing="2" text-transform="uppercase">
+      techsentinel.news
+    </text>
+  </g>
+</svg>
