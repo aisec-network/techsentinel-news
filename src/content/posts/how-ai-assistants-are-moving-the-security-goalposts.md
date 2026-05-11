@@ -68,3 +68,8 @@ The work for defenders is to make that decision visible — and reversible — b
 - [The Authority Gap Is an Observability Problem: What MLOps Teams Should Borrow](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
 - [Germany names UNKN: what the BKA's REvil and GandCrab dox actually buys](https://ai-alert.org/posts/weekly-germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcra/) — *ai-alert.org*
 - [FlashRT cuts the GPU bill on long-context prompt injection attacks](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) — *aisec.blog*
+
+
+---
+
+*→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*

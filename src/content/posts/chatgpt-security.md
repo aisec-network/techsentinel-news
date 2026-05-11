@@ -85,3 +85,8 @@ The security posture of a ChatGPT deployment is largely determined by decisions 
 - [OWASP LLM Top 10 2025: What Changed and Why It Matters](https://ai-alert.org/posts/owasp-llm-top-10-2025-changes/) — *ai-alert.org*
 - [Prompt Injection in the Wild: Incidents from 2024-2025](https://ai-alert.org/posts/prompt-injection-wild-2025/) — *ai-alert.org*
 - [Best AI Security Tools 2024: A Practitioner's Guide to LLM Protection](https://bestaisecuritytools.com/posts/best-ai-security-tools-2024/) — *bestaisecuritytools.com*
+
+
+---
+
+*→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*

@@ -106,3 +106,8 @@ The first wave of agent incidents has been mostly about embarrassment and inconv
 - [FlashRT cuts the GPU bill on long-context prompt injection attacks](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea/) — *aisec.blog*
 - [AI Content Moderation: How LLM Filters Work and Where They Break](https://guardml.io/posts/ai-content-moderation/) — *guardml.io*
 - [FlashRT: Optimization-Based LLM Red-Teaming Without the 264 GB GPU Bill](https://aisec.blog/posts/flashrt-towards-computationally-and-memory-efficient-red-tea-2/) — *aisec.blog*
+
+
+---
+
+*→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*

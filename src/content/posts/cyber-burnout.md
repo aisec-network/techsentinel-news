@@ -69,3 +69,8 @@ The thread on Reddit put it plainly: the operating model assumes infinite human 
 - [FTC logs $2.1B in social media scam losses as TAKE IT DOWN deadline lands](https://neuralwatch.org/posts/threatsday-bulletin-sms-blaster-busts-openemr-flaws-600k-rob/) — *neuralwatch.org*
 - [AI Content Moderation: How LLM Filters Work and Where They Break](https://guardml.io/posts/ai-content-moderation/) — *guardml.io*
 - [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+
+
+---
+
+*→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*
