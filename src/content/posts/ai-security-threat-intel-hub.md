@@ -58,4 +58,4 @@ Tech Sentinel's scope: cybersecurity news coverage with an engineer's filter. Wh
 
 ## Cross-Site Reading
 
-Tech Sentinel covers news and threat intelligence. For technical deep dives on offensive AI security techniques, see [aisec.blog](https://aisec.blog). For AI incident tracking and CVE coverage, see [AI Alert](https://ai-alert.org). For defensive engineering and guardrails, see [GuardML](https://guardml.io).
+Tech Sentinel covers news and threat intelligence. For technical deep dives on offensive AI security techniques, see [aisec.blog](https://aisec.blog). For [AI incident](https://aiincidents.org/) tracking and CVE coverage, see [AI Alert](https://ai-alert.org). For defensive engineering and guardrails, see [GuardML](https://guardml.io).

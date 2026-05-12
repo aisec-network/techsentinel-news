@@ -68,3 +68,8 @@ The NIST AI 100-2e2025 taxonomy is the current authoritative reference for teams
 - **[The Hidden Security Threats Lurking in Your Machine Learning Pipeline](https://cloudsecurityalliance.org/blog/2025/09/11/the-hidden-security-threats-lurking-in-your-machine-learning-pipeline)** — Cloud Security Alliance analysis of ML-specific vulnerabilities across data ingestion, training, deployment, and monitoring stages, with detail on supply chain and access control risks.
 
 - **[Combating the Threat of Adversarial Machine Learning to AI-Driven Cybersecurity](https://www.isaca.org/resources/news-and-trends/industry-news/2025/combating-the-threat-of-adversarial-machine-learning-to-ai-driven-cybersecurity)** — ISACA's practitioner-focused breakdown of evasion, poisoning, prompt injection, and model extraction attacks against cybersecurity ML systems, with multi-layered defense recommendations.
+
+## See also
+
+- [AI security alerts](https://ai-alert.org/)
+- [AI incident tracker](https://aiincidents.org/)

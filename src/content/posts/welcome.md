@@ -13,7 +13,7 @@ Tech Sentinel exists for one reason: there is too much cybersecurity news, and t
 
 What we publish here:
 
-**Breach disclosures with sourcing.** When a breach is reported, we link the original disclosure, the regulator filing if there is one, the threat actor's leak post if it's public. We say what was actually compromised, when, and how — not "may have included" hedging when the facts are knowable.
+**[Breach](https://aiincidents.org/) disclosures with sourcing.** When a breach is reported, we link the original [disclosure](https://ai-alert.org/), the regulator filing if there is one, the threat actor's leak post if it's public. We say what was actually compromised, when, and how — not "may have included" hedging when the facts are knowable.
 
 **CVEs that will get exploited.** Not every CVE matters. We cover the ones that already are exploited in the wild, the ones with public PoCs in widely-deployed software, and the ones in patch-resistant places (firmware, network gear, ICS). We say "patch this now" when that's true and "this is hype" when that's true.
 

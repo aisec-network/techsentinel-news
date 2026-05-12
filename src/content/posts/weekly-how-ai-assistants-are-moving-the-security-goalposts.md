@@ -112,3 +112,9 @@ The first wave of agent incidents has been mostly about embarrassment and inconv
 ---
 
 *→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)
+- [weekly AI security roundup](https://aisecweekly.com/)

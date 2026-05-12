@@ -91,3 +91,5 @@ The security posture of a ChatGPT deployment is largely determined by decisions 
 ---
 
 *→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

@@ -47,7 +47,7 @@ While NIST provides a framework-level view, [OWASP's Top 10 for Large Language M
 
 **Excessive agency (LLM06)** is the defining risk of the agentic AI era. As LLMs are granted access to APIs, databases, code execution environments, and communication channels, the blast radius of a successful compromise expands dramatically. An agent with write access to a file system, email client, and enterprise calendar presents a fundamentally different risk profile than a text-generation chatbot. Cisco frames autonomous agent security as one of the top emergent concerns for 2026 deployments — adversaries can direct agents to execute attack campaigns with efficiency and persistence that manual operations cannot replicate.
 
-**Data and model poisoning (LLM04)** and **sensitive information disclosure (LLM02)** complete the most critical enterprise risk set. Poisoning attacks corrupt model behavior at training time, producing no runtime anomalies that monitoring systems can catch. Disclosure risks — where models surface training data, system prompts, or session data from other users — persist throughout the deployment lifecycle and are particularly acute in multi-tenant SaaS environments where data isolation may be incomplete.
+**Data and model poisoning (LLM04)** and **sensitive information [disclosure](https://ai-alert.org/) (LLM02)** complete the most critical enterprise risk set. Poisoning attacks corrupt model behavior at training time, producing no runtime anomalies that monitoring systems can catch. Disclosure risks — where models surface training data, system prompts, or session data from other users — persist throughout the deployment lifecycle and are particularly acute in multi-tenant SaaS environments where data isolation may be incomplete.
 
 ## Managing Generative AI Risks in Practice
 
@@ -66,3 +66,5 @@ OWASP's 2025 list makes a point worth underscoring: securing generative AI is no
 - **[OWASP Top 10 for Large Language Model Applications 2025](https://genai.owasp.org/llm-top-10/)** — OWASP's ranked list of the most critical LLM security risks, used as a baseline for security review and threat modeling in enterprise AI deployments.
 
 - **[Cisco State of AI Security 2026 Report](https://blogs.cisco.com/ai/cisco-state-of-ai-security-2026-report)** — Annual enterprise AI security report documenting the readiness gap between AI adoption and security preparedness, with data on nation-state use of AI in offensive operations and the emergence of agentic AI as a priority attack surface.
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

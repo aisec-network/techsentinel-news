@@ -75,3 +75,5 @@ The thread on Reddit put it plainly: the operating model assumes infinite human 
 ---
 
 *→ This post is part of the [AI Security Threat Intelligence Hub](/posts/ai-security-threat-intel-hub) — the complete resource index for AI security coverage on Tech Sentinel.*
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.
