@@ -14,6 +14,7 @@ sources:
     url: "https://www.isaca.org/resources/news-and-trends/industry-news/2025/combating-the-threat-of-adversarial-machine-learning-to-ai-driven-cybersecurity"
 schema:
   type: "TechArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/machine-learning-security.png
 ---
 
 Machine learning security is no longer a research boundary problem. As ML models move into fraud detection, malware classification, autonomous threat response, and access control, they inherit a threat surface that traditional application security was not designed to handle. Attackers are not just targeting the applications that run on ML systems — they are targeting the models themselves.

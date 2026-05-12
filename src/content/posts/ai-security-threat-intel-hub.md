@@ -8,6 +8,7 @@ category: "hub"
 draft: true
 schema:
   type: "Article"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/ai-security-threat-intel-hub.png
 ---
 
 Security programs were built around a threat model that assumed clear boundaries: data lives in databases, code lives in code repositories, and trusted users are separated from untrusted external parties by authentication and access controls. AI assistants — and agentic AI systems in particular — have been systematically eroding all three of those assumptions since 2024, and most enterprise security teams have not caught up.

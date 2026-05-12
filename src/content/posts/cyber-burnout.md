@@ -14,6 +14,7 @@ sources:
     url: "https://www.penligent.ai/hackinglabs/nist-cve-prioritization-as-ai-speeds-up-vulnerability-discovery/"
 schema:
   type: "NewsArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/cyber-burnout.png
 ---
 
 A thread in r/cybersecurity this week went unremarkable in format — practitioner, Patch Tuesday, stupid o'clock, four hours of sleep, repeat — but the argument buried in it landed: the industry has the burnout conversation backwards. Wellness apps and mandatory meditation breaks treat fatigue as a personal failing. It isn't. It's the predictable output of an operating model that assumes infinite human elasticity. And that model is about to be tested harder than it ever has been.

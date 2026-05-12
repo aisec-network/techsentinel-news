@@ -16,6 +16,7 @@ sources:
     url: "https://openai.com/enterprise-privacy/"
 schema:
   type: "TechArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/chatgpt-security.png
 ---
 
 ChatGPT security has moved from a theoretical concern to a documented operational problem, with two patched vulnerabilities disclosed in early 2026, hundreds of thousands of stolen credentials circulating on dark-web markets, and research showing that more than a third of what employees type into the tool is sensitive data.

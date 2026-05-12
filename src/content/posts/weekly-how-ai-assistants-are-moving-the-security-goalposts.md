@@ -20,6 +20,7 @@ sources:
     url: "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html"
 schema:
   type: "TechArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/techsentinel.news/weekly-how-ai-assistants-are-moving-the-security-goalposts.png
 ---
 
 The last ninety days have produced three separate public incidents that, taken together, mark the point where AI assistants stopped being a hypothetical security problem and became an operational one. Brian Krebs cataloged the trajectory in [a March 2026 piece](https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/) that quoted pentesters, AI safety leads, and incident responders all making the same observation: the controls and threat models most organizations rely on were not designed for software that reads, decides, and acts on its own.
