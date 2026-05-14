@@ -18,7 +18,7 @@ schema:
   type: "TechArticle"
 ---
 
-The deepfake cybersecurity threat crystallized into a documented enterprise crisis in 2025: fraud losses attributable to AI-generated voice and video attacks reached $1.1 billion in the United States, triple the $360 million recorded a year prior, as synthetic-media tools moved from novelty to operational criminal infrastructure.
+The [deepfake cybersecurity](https://ai-alert.org/posts/deepfake-cybersecurity-3/) threat crystallized into a documented enterprise crisis in 2025: fraud losses attributable to AI-generated voice and video attacks reached $1.1 billion in the United States, triple the $360 million recorded a year prior, as synthetic-media tools moved from novelty to operational criminal infrastructure.
 
 Voice deepfake incidents in the United States rose 680% year-over-year in 2025, with more than 100,000 attacks documented. Global losses from deepfake-enabled fraud exceeded $2.19 billion in verified cases, according to [analysis published by Bleeping Computer in April 2026](https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/). Among affected organizations, 61% reported losses above $100,000; nearly 19% exceeded $500,000 per incident.
 
@@ -81,3 +81,11 @@ Training remains the weakest link in most programs. The majority of organization
 - **NIST — NISTIR 8584 Face Morphing Detection Guidelines (August 2025).** Accuracy benchmarks for single-image and differential morph attack detection in identity-verification contexts. [https://www.nist.gov/news-events/news/2025/08/nist-guidelines-can-help-organizations-detect-face-photo-morphs-deter](https://www.nist.gov/news-events/news/2025/08/nist-guidelines-can-help-organizations-detect-face-photo-morphs-deter)
 
 - **Bleeping Computer — "Deepfake Voice Attacks Are Outpacing Defenses" (April 2026).** Aggregates 2025–2026 incident data including 680% YoY incident increase, Singapore CFO fraud case, and enterprise defensive controls. [https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/](https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/)
+
+## Related across the network
+
+- [Deepfake Cybersecurity: Detection Methods, Federal Guidance, and Practical Defenses](https://ai-alert.org/posts/deepfake-cybersecurity-3/) — *ai-alert.org*
+- [Deepfake Cybersecurity: Attack Vectors, Detection Failures, and Defenses for 2026](https://ai-alert.org/posts/deepfake-cybersecurity/) — *ai-alert.org*
+- [Deepfake Cybersecurity Incidents: Five Confirmed Cases and the Patterns They Expose](https://ai-alert.org/posts/deepfake-cybersecurity-2/) — *ai-alert.org*
+- [AI Security News Weekly Digest: What to Track, Where to Look, and How to Stay Current](https://aisecdigest.com/posts/ai-security-news-weekly-digest/) — *aisecdigest.com*
+- [AI-Generated Phishing and the Collapse of Spearphishing Cost](https://ai-alert.org/posts/ai-generated-phishing-spearphishing-cost-collapse/) — *ai-alert.org*
