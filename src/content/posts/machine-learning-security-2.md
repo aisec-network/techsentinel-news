@@ -16,11 +16,11 @@ schema:
   type: "TechArticle"
 ---
 
-Machine learning security encompasses a broader threat surface than most security programs are currently built to address. Organizations deploying ML in fraud detection, intrusion detection, or content moderation face adversarial risks at every stage of the model lifecycle — data collection, training, deployment, and third-party model integration — and most defensive frameworks haven't caught up.
+[Machine learning security](https://ai-alert.org/posts/machine-learning-security-2/) encompasses a broader threat surface than most security programs are currently built to address. Organizations deploying ML in fraud detection, intrusion detection, or content moderation face adversarial risks at every stage of the model lifecycle — data collection, training, deployment, and third-party model integration — and most defensive frameworks haven't caught up.
 
 The gap is governance, not technology. Adversarial testing tools exist. The problem is that most security teams don't have an inventory of which models are in production, where those models came from, or what the chain of custody looks like for the weight files being served at inference.
 
-## Mapping the Threat: Seven Attack Categories
+## Mapping the Threat: Seven [Attack Categories](https://ai-alert.org/posts/ai-security/)
 
 The UK [National Cyber Security Centre's taxonomy](https://www.ncsc.gov.uk/paper/understanding-adversarial-attacks-against-machine-learning-and-ai) provides a practical starting point for threat modeling ML deployments. It identifies seven distinct attack classes, each requiring different defensive controls.
 
@@ -52,7 +52,7 @@ OWASP's recommended controls include signed Software Bill of Materials (SBOMs) f
 
 [NIST's AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), released January 2023, organizes ML security controls under four functions: **Govern**, **Map**, **Measure**, and **Manage**. The Govern function addresses organizational accountability — who owns AI risk, what policies exist, how risk decisions are escalated. Map identifies specific AI risks present in a given system. Measure assesses those risks. Manage defines how identified risks are treated and tracked.
 
-For machine learning security practitioners, the framework's most practical application is as an audit structure: walk through each function and identify gaps between what the framework expects and what the organization can demonstrate. A companion Generative AI Profile, published by NIST in July 2024, extends coverage to generative system-specific risks including prompt injection, model abuse, and generated content harms.
+For [machine learning security](https://ai-alert.org/posts/machine-learning-security/) practitioners, the framework's most practical application is as an audit structure: walk through each function and identify gaps between what the framework expects and what the organization can demonstrate. A companion Generative AI Profile, published by NIST in July 2024, extends coverage to generative system-specific risks including prompt injection, model abuse, and generated content harms.
 
 For teams building monitoring into ML inference pipelines, [Sentry ML](https://sentryml.com) covers model drift detection, output anomaly monitoring, and production ML health observability — controls that map to the Measure and Manage functions of the AI RMF. Defensive guardrail tooling for content filtering and output safety is covered at [GuardML](https://guardml.io).
 
@@ -75,3 +75,11 @@ Based on the NCSC threat taxonomy and OWASP LLM03 mitigations, five controls add
 - **NCSC: Understanding adversarial attacks against Machine Learning and AI** — UK government technical paper enumerating seven ML attack classes — evasion, poisoning, model inversion, characterisation, malicious training, artifact manipulation, and hardware side-channel — with defensive guidance and research gaps. [https://www.ncsc.gov.uk/paper/understanding-adversarial-attacks-against-machine-learning-and-ai](https://www.ncsc.gov.uk/paper/understanding-adversarial-attacks-against-machine-learning-and-ai)
 
 - **OWASP LLM Top 10:2025 — LLM03: Supply Chain** — Covers model supply chain attack vectors including pre-trained model tampering, LoRA adapter injection, and provenance failures, with recommended controls including SBOMs, red-teaming, and output anomaly detection. [https://genai.owasp.org/llmrisk/llm03-training-data-poisoning/](https://genai.owasp.org/llmrisk/llm03-training-data-poisoning/)
+
+## Related across the network
+
+- [Machine Learning Security Across the Pipeline: Training Data to Deployed Model](https://ai-alert.org/posts/machine-learning-security-2/) — *ai-alert.org*
+- [Machine Learning Security: Threats, Frameworks, and Defenses](https://ai-alert.org/posts/machine-learning-security/) — *ai-alert.org*
+- [AI Security: Attack Categories, Defense Gaps, and How to Respond](https://ai-alert.org/posts/ai-security/) — *ai-alert.org*
+- [LLM Security Risks: A Practitioner's Field Guide for 2025](https://ai-alert.org/posts/llm-security-risks/) — *ai-alert.org*
+- [Generative AI Risks: A Practical Taxonomy for Security and Operations Teams](https://ai-alert.org/posts/generative-ai-risks/) — *ai-alert.org*
